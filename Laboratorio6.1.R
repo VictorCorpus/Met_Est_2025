@@ -61,3 +61,17 @@ estudio$Resultado_bin <- ifelse(estudio$Resultado == "Aprobado", 1, 0)
 head(estudio)
 
 cor.test(estudio$Horas_estudio, estudio$Resultado_bin, method = "pearson")
+
+mean_aprobados <- mean(estudio$Horas_estudio[estudio$Resultado == "Aprobado"])
+mean_aprobados
+
+mean_reprobados <- mean(estudio$Horas_estudio[estudio$Resultado == "Reprobado"])
+mean_reprobados
+
+sd(estudio$Horas_estudio)
+N <- length(estudio$Estudiante)
+n_aprobados <- length(estudio$Horas_estudio[estudio$Resultado == "Aprobado"])
+n_reprobados <- length(estudio$Horas_estudio[estudio$Resultado == "Reprobado"])
+
+rpb <- ((mean_aprobados-mean_reprobados)/sd(estudio$Horas_estudio)) * sqrt(n_aprobados*n_reprobados/(N^2))
+rpb
