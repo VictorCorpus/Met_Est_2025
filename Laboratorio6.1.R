@@ -59,3 +59,5 @@ estudio <- data.frame(
 # Crear variable dicotomica: 1 = Apobado, 0 = Reprobado
 estudio$Resultado_bin <- ifelse(estudio$Resultado == "Aprobado", 1, 0)
 head(estudio)
+
+cor.test(estudio$Horas_estudio, estudio$Resultado_bin, method = "pearson")
