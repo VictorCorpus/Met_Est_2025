@@ -47,3 +47,4 @@ abline(lm(Altura_m ~ DAP_cm), col="green", lwd=2)
 # Se rechaza la hipótesis nula y se acepta que el DAP y la altura
 # están correlacionados. Los árboles con mayor DAP tienden a ser más altos,
 # lo cual coincide con un patrón normal de crecimiento forestal.
+
