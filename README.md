@@ -5,9 +5,7 @@
 
 Víctor Andrés Corpus Aguirre
 
-## Contenido
-
-# PROYECTO INTEGRADOR DE APRENDIZAJE (PIA)
-Contenido:
-En este repositorio estan todas las actividades realizadas en el curso
+## PROYECTO INTEGRADOR DE APRENDIZAJE (PIA)
+# Contenido:
++ En este repositorio estan todas las actividades realizadas en el curso
  
