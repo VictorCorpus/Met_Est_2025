@@ -1,9 +1,8 @@
 # Curso de Métodos Estadísticos
 ## Licenciatura en Ingeniería Forestal
+Víctor Andrés Corpus Aguirre
 
 ## Repositorio del curso de Métodos Estadísticos Agosto 2025 del programa de Ingeniero Forestal
-
-Víctor Andrés Corpus Aguirre
 
 ## PROYECTO INTEGRADOR DE APRENDIZAJE (PIA)
 # Contenido:
